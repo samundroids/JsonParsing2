@@ -5,6 +5,7 @@
     <!-- Retrofit performs HTTP requests against an API running on a server somewhere in the Internet.
     Executing those requests from an Android application requires the Internet permission to open network sockets. -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
